@@ -1,8 +1,8 @@
-### ！！必须先安装[MP4Box](https://gpac.io/downloads/gpac-nightly-builds/)，并确认[MP4Box](https://gpac.io/downloads/gpac-nightly-builds/)已正确添加到环境变量
+### ！！Must be installed first[MP4Box](https://gpac.io/downloads/gpac-nightly-builds/)，And confirm[MP4Box](https://gpac.io/downloads/gpac-nightly-builds/)Correctly added to environment variables
 
-### 添加功能
+### Add features
 
-1. 支持内嵌封面和LRC歌词（需要`media-user-token`，获取方式看最后的说明）
+1. Supports inline covers and LRC lyrics（Demand`media-user-token`，See the instructions at the end for how to get it）
 2. 支持获取逐词与未同步歌词
 3. 支持下载歌手 `go run main.go https://music.apple.com/us/artist/taylor-swift/159260351` `--all-album` 自动选择歌手的所有专辑
 4. 下载解密部分更换为Sendy McSenderson的代码，实现边下载边解密,解决大文件解密时内存不足
