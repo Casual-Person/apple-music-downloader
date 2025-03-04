@@ -39,6 +39,7 @@ explicit-choice : "[E]"
 clean-choice : "[C]"
 apple-master-choice : "[M]"
 dolby-atmos-choice : "[DA]"
+hi-res-lossless-choice : "[HI-Res]"
 #if set true,for playlst,will use songinfo for meta #albumname track disk
 use-songinfo-for-playlist: false
 #if set true,will download album cover for playlist
